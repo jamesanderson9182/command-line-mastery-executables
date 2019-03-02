@@ -1,8 +1,17 @@
 # Productive Developer - Command Line Mastery: Executable Files 
+You will need to modify the file permissions to add the executable bit on these files apart from
+`HelloWorld.java`
+
+You can do this using
+
+`chmod +x fileName` 
+
+e.g.
+`chmod +x bashHelloWorld`
 
 ## Bash bashHelloWorld
 ```sh
-./bashHelloWorld.sh TheProductiveDeveloper.net
+./bashHelloWorld TheProductiveDeveloper.net
 ```
 
 ## Java HelloWorld.java
