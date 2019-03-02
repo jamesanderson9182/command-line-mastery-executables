@@ -1,0 +1,5 @@
+#!/bin/bash
+echo $1
+
+echo "UpperCase: $1" | tr '[:lower:]' '[:upper:]'
+echo "LowerCase: $1" | tr '[:upper:]' '[:lower:]'

@@ -1,4 +1,6 @@
 #!/usr/bin/php
 <?php
 
-print($argv[1]);
+print($argv[1] . "\n");
+print("UpperCase: " . strtoupper($argv[1]) . "\n");
+print("LowerCase: " . strtolower($argv[1]) . "\n");

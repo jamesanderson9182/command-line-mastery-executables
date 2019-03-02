@@ -1,3 +1,5 @@
 #!/usr/local/bin/node
 
 console.log(process.argv[2]);
+console.log("UpperCase: " + process.argv[2].toUpperCase());
+console.log("LowerCase: " + process.argv[2].toLowerCase());

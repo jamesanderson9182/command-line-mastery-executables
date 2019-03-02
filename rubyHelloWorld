@@ -1,0 +1,5 @@
+#!/usr/bin/ruby
+
+print ARGV[0] + "\n"
+print "UpperCase: " + ARGV[0].upcase + "\n"
+print "LowerCase: " + ARGV[0].downcase + "\n"

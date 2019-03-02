@@ -2,3 +2,5 @@
 import sys
 
 print(sys.argv[1])
+print("UpperCase: " + sys.argv[1].upper())
+print("LowerCase: " + sys.argv[1].lower())
